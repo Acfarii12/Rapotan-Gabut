@@ -62,7 +62,7 @@ function game() {
           hasil = "Kamu memilih pilihan yang salah!";
         }
 
-        alert(nama + " memilih " + p + " \nKomputer memilih " + comp + "\n\nKamu " + hasil);
+        alert("Kamu memilih " + p + " \nKomputer memilih " + comp + "\n\nKamu " + hasil);
 
         ulang = confirm("Mau main lagi?");
       }

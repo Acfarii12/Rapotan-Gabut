@@ -29,7 +29,7 @@ body {
 
 .vipe {
   position: relative;
-  top: 17pc;
+  top: 15pc;
 }
 
 /* content */
@@ -40,7 +40,7 @@ body {
   border-radius: 30px;
   margin: auto;
   position: relative;
-  top: 65px;
+  top: 15px;
   padding: 13px 30px 60px 30px;
   width: 17pc;
 }
@@ -65,8 +65,9 @@ body {
 .content .btn-link {
   cursor: pointer;
   background: transparent;
-  width: 10pc;
+  width: 12pc;
   padding: 10px;
+  padding-top: 20px;
   border-radius: 15px;
   border: none;
   transition: 0.3s;
@@ -81,7 +82,7 @@ body {
 }
 
 .btn-link img {
-  height: 130px;
+  height: 150px;
   border-radius: 15px;
 }
 
@@ -128,7 +129,7 @@ body {
 }
 
 .gatotkaca .vip {
-  height: 11pc;
+  height: 9pc;
   position: relative;
   top: 40px;
   border-radius: 15px;
