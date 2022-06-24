@@ -185,7 +185,7 @@ body {
   margin: auto;
   margin-top: 4pc;
   border-radius: 30px;
-  width: 60%;
+  width: 18pc;
   box-shadow: 0 5px 9px rgba(0, 0, 0, 0.7);
 }
 
@@ -201,7 +201,7 @@ body {
 }
 
 .player-area img {
-  height: 100px;
+  height: 80px;
   border-radius: 100pc;
   cursor: pointer;
   border: 1px solid black;
@@ -220,7 +220,7 @@ body {
 }
 
 .computer-area img {
-  height: 100px;
+  height: 80px;
   border-radius: 100pc;
   cursor: pointer;
   border: 1px solid black;
@@ -231,15 +231,16 @@ body {
 .info {
   background: #e2e2e2;
   border: 2px solid rgb(83, 83, 83);
-  height: 50px;
+  height: 35px;
   z-index: 1;
   position: relative;
-  width: 30%;
+  width: 10pc;
   margin: auto;
   border-radius: 10px;
-  margin-top: -1.5pc;
+  margin-top: -1pc;
+  top: -10px;
   text-align: center;
-  line-height: 50px;
+  line-height: 35px;
   font-family: "Quicksand", sans-serif;
   color: #2b2b2b;
   font-size: 20px;
@@ -250,18 +251,18 @@ body {
 
 .gunting {
   margin-right: auto;
-  margin-left: 50px;
+  margin-left: 15px;
   width: 30%;
 }
 
 .batu {
-  margin-top: -7.5pc;
+  margin-top: -6.5pc;
 }
 
 .kertas {
   margin-left: auto;
-  margin-right: 50px;
-  margin-top: -7.8pc;
+  margin-right: 15px;
+  margin-top: -6.6pc;
   width: 30%;
 }
 
