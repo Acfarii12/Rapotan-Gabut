@@ -22,14 +22,14 @@ body {
   margin: auto;
   position: relative;
   text-align: center;
-  top: 70px;
+  top: 65px;
   padding: 13px 30px 60px 30px;
-  width: 11pc;
+  width: 17pc;
 }
 
 .vipe {
   position: relative;
-  top: 20pc;
+  top: 17pc;
 }
 
 /* content */
@@ -40,14 +40,14 @@ body {
   border-radius: 30px;
   margin: auto;
   position: relative;
-  top: 70px;
+  top: 65px;
   padding: 13px 30px 60px 30px;
-  width: 11pc;
+  width: 17pc;
 }
 
 .title {
   font-family: "Freehand", sans-serif;
-  font-size: 50px;
+  font-size: 35px;
   padding-left: 20px;
 }
 
@@ -65,6 +65,7 @@ body {
 .content .btn-link {
   cursor: pointer;
   background: transparent;
+  width: 10pc;
   padding: 10px;
   border-radius: 15px;
   border: none;
@@ -80,7 +81,7 @@ body {
 }
 
 .btn-link img {
-  height: 190px;
+  height: 130px;
   border-radius: 15px;
 }
 
@@ -95,7 +96,7 @@ body {
   border-radius: 30px;
   cursor: pointer;
   font-size: 17px;
-  padding: 10px 40px 10px 40px;
+  padding: 10px 50px 10px 50px;
   margin-top: 10px;
   margin-bottom: 7px;
   transition: 0.5s;
@@ -120,7 +121,7 @@ body {
 }
 
 .gatotkaca video {
-  height: 27pc;
+  height: 25pc;
   position: relative;
   top: 40px;
   border-radius: 15px;
@@ -166,6 +167,7 @@ body {
 
 .info-player-com {
   font-family: "Maven Pro", sans-serif;
+  color: gray;
 }
 
 .player {
@@ -265,6 +267,7 @@ body {
 .name-tools {
   font-family: "Fredoka", sans-serif;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
+  color: gray;
 }
 
 /* DEKSTOP VERSION */
@@ -316,8 +319,10 @@ body {
     cursor: pointer;
     background: transparent;
     padding: 10px;
+    padding-top: 20px;
     border-radius: 15px;
     border: none;
+    width: 15pc;
     transition: 0.3s;
     color: lightgray;
     font-weight: normal;

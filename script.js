@@ -69,6 +69,10 @@ function game() {
       alert("Terima kasih sudah bermain.");
       break;
     case "Grafik 720p HD 4K 8K Ultra Wadidaw":
+    case "Grafik 720P HD 4K 8K Ultra Wadidaw":
+    case "Grafik 720p Hd 4K 8K Ultra Wadidaw":
+    case "Grafik 720p hd 4k 8k ultra wadidaw":
+    case "grafik 720p hd 4k 8k ultra wadidaw":
     case "Grafik HD":
     case "Grafik Hd":
     case "Grafik hd":
@@ -133,7 +137,7 @@ function roll() {
       clearInterval;
       return;
     }
-    imgComputer.setAttribute("src", "img/mini-games/" + image[i++] + ".JPG");
+    imgComputer.setAttribute("src", "../img/mini-games/" + image[i++] + ".JPG");
     if (i == image.length) i = 0;
   }, 100);
 }
@@ -148,7 +152,7 @@ selectGunting.addEventListener("click", function () {
 
   setTimeout(function () {
     const imgComputer = document.querySelector(".img-computer");
-    imgComputer.setAttribute("src", "img/mini-games/" + computerChoices + ".JPG");
+    imgComputer.setAttribute("src", "../img/mini-games/" + computerChoices + ".JPG");
 
     const info = document.querySelector(".info");
     info.innerHTML = result;
@@ -165,7 +169,7 @@ selectBatu.addEventListener("click", function () {
 
   setTimeout(function () {
     const imgComputer = document.querySelector(".img-computer");
-    imgComputer.setAttribute("src", "img/mini-games/" + computerChoices + ".JPG");
+    imgComputer.setAttribute("src", "../img/mini-games/" + computerChoices + ".JPG");
 
     const info = document.querySelector(".info");
     info.innerHTML = result;
@@ -182,7 +186,7 @@ selectKertas.addEventListener("click", function () {
 
   setTimeout(function () {
     const imgComputer = document.querySelector(".img-computer");
-    imgComputer.setAttribute("src", "img/mini-games" + computerChoices + ".JPG");
+    imgComputer.setAttribute("src", "../img/mini-games/" + computerChoices + ".JPG");
 
     const info = document.querySelector(".info");
     info.innerHTML = result;
