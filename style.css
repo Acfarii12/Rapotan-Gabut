@@ -24,7 +24,12 @@ body {
   text-align: center;
   top: 70px;
   padding: 13px 30px 60px 30px;
-  width: 20pc;
+  width: 11pc;
+}
+
+.vipe {
+  position: relative;
+  top: 20pc;
 }
 
 /* content */
@@ -37,7 +42,7 @@ body {
   position: relative;
   top: 70px;
   padding: 13px 30px 60px 30px;
-  width: 20pc;
+  width: 11pc;
 }
 
 .title {
@@ -365,14 +370,14 @@ body {
   .gatotkaca video {
     height: 27pc;
     position: relative;
-    top: 25px;
+    top: 40px;
     border-radius: 15px;
   }
 
   .gatotkaca .vip {
     height: 27pc;
     position: relative;
-    top: 25px;
+    top: 40px;
     border-radius: 15px;
   }
 

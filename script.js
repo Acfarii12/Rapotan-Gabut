@@ -1,31 +1,24 @@
-var nm = true;
-while (nm) {
-  var nama = prompt("Nama:");
-  if (nama) {
-    alert("Selamat Datang!");
-    nm = false;
-  }
-}
-
-// back
+// var nm = true;
+// while (nm) {
+//   var nama = prompt("Nama:");
+//   if (nama) {
+//     alert("Selamat Datang!");
+//     nm = false;
+//   }
+// }
 
 function back() {
-  document.getElementById("boengkoes").style.display = "block";
-  document.getElementById("mie").style.display = "none";
-  document.getElementById("thomas").style.display = "none";
-  document.getElementById("game").style.display = "none";
+  document.location.href = "../index.html";
 }
 
 // content
 
 function mie() {
-  document.getElementById("boengkoes").style.display = "none";
-  document.getElementById("mie").style.display = "block";
+  document.location.href = "mie/index.html";
 }
 
 function thomas() {
-  document.getElementById("boengkoes").style.display = "none";
-  document.getElementById("thomas").style.display = "block";
+  document.location.href = "thomas/index.html";
 }
 
 function game() {
@@ -40,6 +33,8 @@ function game() {
     case "biasa aja":
     case "Biasa aja":
     case "Biasa Aja":
+    case "Biasa":
+    case "biasa":
       var ulang = true;
       while (ulang) {
         var p = prompt("Selamat Datang di Permainan: Gunting, Batu, Kertas \n\nPilih: Gunting / Batu / Kertas");
@@ -106,8 +101,7 @@ function game() {
     case "grafik 720p":
     case "720P":
     case "720p":
-      document.getElementById("boengkoes").style.display = "none";
-      document.getElementById("game").style.display = "block";
+      document.location.href = "game/index.html";
       break;
     default:
       alert("Kamu memasukkan pilihan yang salah!");
