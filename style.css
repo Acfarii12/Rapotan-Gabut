@@ -1,0 +1,512 @@
+/* style.css */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(img/340f63644da01fb55c08f3e93211a55d.jpg);
+  background-size: cover;
+}
+
+.hidden {
+  display: none;
+}
+
+/* MOBILE VERSION */
+.gatotkaca {
+  background: transparent;
+  backdrop-filter: blur(3pc);
+  border-radius: 30px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  top: 70px;
+  padding: 13px 30px 60px 30px;
+  width: 20pc;
+}
+
+/* content */
+
+#boengkoes {
+  background: transparent;
+  backdrop-filter: blur(3pc);
+  border-radius: 30px;
+  margin: auto;
+  position: relative;
+  top: 70px;
+  padding: 13px 30px 60px 30px;
+  width: 20pc;
+}
+
+.title {
+  font-family: "Freehand", sans-serif;
+  font-size: 50px;
+  padding-left: 20px;
+}
+
+.barrier {
+  border: none;
+  border-bottom: 1px solid rgb(58, 58, 58);
+}
+
+.content {
+  position: relative;
+  top: 25px;
+  text-align: center;
+}
+
+.content .btn-link {
+  cursor: pointer;
+  background: transparent;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  transition: 0.3s;
+  color: lightgray;
+  font-weight: normal;
+}
+
+.content .btn-link:hover {
+  background: whitesmoke;
+  transform: translateY(-5px);
+  color: #2b2b2b;
+}
+
+.btn-link img {
+  height: 190px;
+  border-radius: 15px;
+}
+
+.copy {
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+}
+
+.btn-ig {
+  background: whitesmoke;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 17px;
+  padding: 10px 40px 10px 40px;
+  margin-top: 10px;
+  margin-bottom: 7px;
+  transition: 0.5s;
+}
+
+.btn-ig:hover {
+  background: rgb(255, 69, 134);
+  transform: translateY(-4px);
+}
+
+.promo {
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+}
+
+/* gatotkaca */
+
+.gatotkaca .title-content {
+  font-family: "Lato", sans-serif;
+  position: relative;
+  top: 40px;
+}
+
+.gatotkaca video {
+  height: 27pc;
+  position: relative;
+  top: 40px;
+  border-radius: 15px;
+}
+
+.gatotkaca .vip {
+  height: 11pc;
+  position: relative;
+  top: 40px;
+  border-radius: 15px;
+}
+
+.gatotkaca .msm {
+  position: relative;
+  text-align: left;
+}
+
+.gatotkaca .btn-back {
+  background: transparent;
+  border: none;
+  position: absolute;
+  padding: 10px 10px 10px 10px;
+  font-size: 17px;
+  color: rgb(0, 4, 255);
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  transition: 0.3s;
+}
+
+.btn-back:hover {
+  transform: translateX(-3px);
+  color: rgb(0, 2, 108);
+}
+
+/* mini games */
+
+.mini-games {
+  width: 70%;
+  margin: auto;
+  margin-top: 20pc;
+  padding-top: 5rem;
+}
+
+.info-player-com {
+  font-family: "Maven Pro", sans-serif;
+}
+
+.player {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.computer {
+  text-align: right;
+  margin-right: 20px;
+}
+
+.games-area {
+  margin: auto;
+  margin-top: 4pc;
+  border-radius: 30px;
+  width: 60%;
+  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.7);
+}
+
+.player-area {
+  background-image: linear-gradient(to bottom, rgb(8, 0, 51), rgb(18, 0, 122));
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  height: 210px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: -2pc;
+}
+
+.player-area img {
+  height: 100px;
+  border-radius: 100pc;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+/* computer */
+
+.computer-area {
+  background-image: linear-gradient(to top, rgb(51, 0, 0, 1), rgb(122, 0, 0, 1));
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  height: 180px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.computer-area img {
+  height: 100px;
+  border-radius: 100pc;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+/* info */
+
+.info {
+  background: #e2e2e2;
+  border: 2px solid rgb(83, 83, 83);
+  height: 50px;
+  z-index: 1;
+  position: relative;
+  width: 30%;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: -1.5pc;
+  text-align: center;
+  line-height: 50px;
+  font-family: "Quicksand", sans-serif;
+  color: #2b2b2b;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* items */
+
+.gunting {
+  margin-right: auto;
+  margin-left: 50px;
+  width: 30%;
+}
+
+.batu {
+  margin-top: -7.5pc;
+}
+
+.kertas {
+  margin-left: auto;
+  margin-right: 50px;
+  margin-top: -7.8pc;
+  width: 30%;
+}
+
+.name-tools {
+  font-family: "Fredoka", sans-serif;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+/* DEKSTOP VERSION */
+
+@media (min-width: 992px) {
+  .gatotkaca {
+    background: transparent;
+    backdrop-filter: blur(3pc);
+    border-radius: 30px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    top: 70px;
+    padding: 13px 30px 60px 30px;
+    width: 50pc;
+  }
+
+  /* content */
+
+  #boengkoes {
+    background: transparent;
+    backdrop-filter: blur(3pc);
+    border-radius: 30px;
+    margin: auto;
+    position: relative;
+    top: 70px;
+    padding: 13px 30px 60px 30px;
+    width: 50pc;
+  }
+
+  .title {
+    font-family: "Freehand", sans-serif;
+    font-size: 50px;
+    padding-left: 20px;
+  }
+
+  .barrier {
+    border: none;
+    border-bottom: 1px solid rgb(58, 58, 58);
+  }
+
+  .content {
+    position: relative;
+    top: 25px;
+    text-align: center;
+  }
+
+  .content .btn-link {
+    cursor: pointer;
+    background: transparent;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    transition: 0.3s;
+    color: lightgray;
+    font-weight: normal;
+  }
+
+  .content .btn-link:hover {
+    background: whitesmoke;
+    transform: translateY(-5px);
+    color: #2b2b2b;
+  }
+
+  .btn-link img {
+    height: 190px;
+    border-radius: 15px;
+  }
+
+  .copy {
+    font-family: "Lato", sans-serif;
+    font-size: 17px;
+  }
+
+  .btn-ig {
+    background: whitesmoke;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 17px;
+    padding: 10px 40px 10px 40px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    transition: 0.5s;
+  }
+
+  .btn-ig:hover {
+    background: rgb(255, 69, 134);
+    transform: translateY(-4px);
+  }
+
+  .promo {
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+  }
+
+  /* gatotkaca */
+
+  .gatotkaca .title-content {
+    font-family: "Lato", sans-serif;
+  }
+
+  .gatotkaca video {
+    height: 27pc;
+    position: relative;
+    top: 25px;
+    border-radius: 15px;
+  }
+
+  .gatotkaca .vip {
+    height: 27pc;
+    position: relative;
+    top: 25px;
+    border-radius: 15px;
+  }
+
+  .gatotkaca .msm {
+    position: relative;
+    text-align: left;
+  }
+
+  .gatotkaca .btn-back {
+    background: transparent;
+    border: none;
+    position: absolute;
+    padding: 10px 10px 10px 10px;
+    font-size: 17px;
+    color: rgb(0, 4, 255);
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    transition: 0.3s;
+  }
+
+  .btn-back:hover {
+    transform: translateX(-3px);
+    color: rgb(0, 2, 108);
+  }
+
+  /* mini games */
+
+  .mini-games {
+    width: 70%;
+    margin: auto;
+    margin-top: 20pc;
+    padding-top: 5rem;
+  }
+
+  .info-player-com {
+    font-family: "Maven Pro", sans-serif;
+  }
+
+  .player {
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .computer {
+    text-align: right;
+    margin-right: 20px;
+  }
+
+  .games-area {
+    margin: auto;
+    margin-top: 4pc;
+    border-radius: 30px;
+    width: 60%;
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.7);
+  }
+
+  .player-area {
+    background-image: linear-gradient(to bottom, rgb(8, 0, 51), rgb(18, 0, 122));
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 210px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: -2pc;
+  }
+
+  .player-area img {
+    height: 100px;
+    border-radius: 100pc;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+
+  /* computer */
+
+  .computer-area {
+    background-image: linear-gradient(to top, rgb(51, 0, 0, 1), rgb(122, 0, 0, 1));
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 180px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .computer-area img {
+    height: 100px;
+    border-radius: 100pc;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+
+  /* info */
+
+  .info {
+    background: #e2e2e2;
+    border: 2px solid rgb(83, 83, 83);
+    height: 50px;
+    z-index: 1;
+    position: relative;
+    width: 30%;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: -1.5pc;
+    text-align: center;
+    line-height: 50px;
+    font-family: "Quicksand", sans-serif;
+    color: #2b2b2b;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  /* items */
+
+  .gunting {
+    margin-right: auto;
+    margin-left: 50px;
+    width: 30%;
+  }
+
+  .batu {
+    margin-top: -7.5pc;
+  }
+
+  .kertas {
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: -7.8pc;
+    width: 30%;
+  }
+
+  .name-tools {
+    font-family: "Fredoka", sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
+  }
+}

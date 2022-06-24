@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Freehand&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet" />
+
+    <title>20.28 WIB</title>
+
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="boengkoes">
+      <h1 class="title">Hello</h1>
+      <hr class="barrier" />
+      <div class="content">
+        <button class="btn-link" onclick="mie()">
+          <img src="img/cover/pngtree-delicious-braised-chicken-drumsticks-png-image_5638554.jpg" alt="Mie" />
+          <h3 class="ttl">Cara masak mie goreng 🍳</h3>
+        </button>
+        <button class="btn-link" onclick="thomas()">
+          <img src="img/cover/download (1).jpg" alt="Thomas" />
+          <h3 class="ttl">Cara menjadi Thomas 🥶</h3>
+        </button>
+        <button class="btn-link" onclick="game()">
+          <img src="img/cover/pngtree-rock-paper-scissors-cloth-guess-fist-gesture-image_2287305.jpg" alt="Thomas" />
+          <h3 class="ttl">Gunting, Batu, Kertas ✂️</h3>
+        </button>
+        <br /><br /><br />
+        <h5 class="copy">Created by - Acfarii ( Fahry )</h5>
+        <button class="btn-ig" onclick="ig()"><i class="bi bi-instagram"></i> Instagram</button>
+        <h6 class="promo">Klik lah banh 😅☝🏻, wkwk</h6>
+      </div>
+    </div>
+
+    <!-- mie -->
+
+    <div id="mie" class="gatotkaca hidden">
+      <div class="msm">
+        <button class="btn-back" onclick="back()"><i class="bi bi-chevron-left"></i> Kembali</button>
+      </div>
+      <video controls src="video/nasi.mp4"></video>
+      <h2 class="title-content">Cara masak mie goreng 🍳</h2>
+    </div>
+
+    <!-- thomas -->
+    <div id="thomas" class="gatotkaca hidden">
+      <div class="msm">
+        <button class="btn-back" onclick="back()"><i class="bi bi-chevron-left"></i> Kembali</button>
+      </div>
+      <video controls src="video/thomas.mp4" class="vip"></video>
+      <h2 class="title-content">Cara menjadi Thomas 🥶</h2>
+    </div>
+
+    <!-- game -->
+    <div id="game" class="gatotkaca hidden">
+      <div class="msm">
+        <button class="btn-back" onclick="back()"><i class="bi bi-chevron-left"></i> Kembali</button>
+      </div>
+      <div class="games-area">
+        <div class="the-game">
+          <div class="computer-area">
+            <br />
+            <img src="img/mini-games/gunting.JPG" alt="Komputer" class="img-computer" />
+            <h2 class="info-player-com computer">COM</h2>
+          </div>
+          <div class="info"></div>
+          <div class="player-area">
+            <br />
+            <h2 class="info-player-com player">Player</h2>
+            <br />
+            <div class="gunting">
+              <img src="img/mini-games/gunting.JPG" alt="Gunting" class="img-gunting" />
+              <br />
+              <span class="name-tools">Gunting</span>
+            </div>
+            <div class="batu">
+              <img src="img/mini-games/batu.JPG" alt="Batu" class="img-batu" />
+              <br />
+              <span class="name-tools">Batu</span>
+            </div>
+            <div class="kertas">
+              <img src="img/mini-games/kertas.JPG" alt="Kertas" class="img-kertas" />
+              <br />
+              <span class="name-tools">Kertas</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="title-content">Gunting, Batu, Kertas ✂️</h2>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
