@@ -1,11 +1,11 @@
-// var nm = true;
-// while (nm) {
-//   var nama = prompt("Nama:");
-//   if (nama) {
-//     alert("Selamat Datang!");
-//     nm = false;
-//   }
-// }
+var nm = true;
+while (nm) {
+  var nama = prompt("Nama:");
+  if (nama) {
+    alert("Selamat Datang!");
+    nm = false;
+  }
+}
 
 // back
 
@@ -194,3 +194,7 @@ selectKertas.addEventListener("click", function () {
     info.innerHTML = result;
   }, 1000);
 });
+
+function ig() {
+  document.location.href = "https://instagram.com/acfarii12._";
+}
